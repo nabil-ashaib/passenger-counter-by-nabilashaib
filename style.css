@@ -1,0 +1,103 @@
+body {
+    height: 100vh;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(to top right, #0e996f 10%, #23f1b4 90%);
+}
+
+#content {
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 5%;
+    margin: 5% 10%;  
+    border-radius: 20px;
+    border: #1a8565 solid 1px;
+    box-shadow: -15px 15px 30px 5px #1a8565;
+    background-color: white;
+}
+
+#contenttitle {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding: 0% 0% 3% 0%;
+    text-align: center;
+}
+#contentcounter {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+#contentcover {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+
+
+#count-entered {
+    margin: 5% 0%;
+}
+
+
+#increase-btn {
+    width: 60%;
+    margin: 5px;
+    padding: 2%;
+    display: inline-block;
+    color: white;
+    background: #0bd397;
+    border-radius: 50px;
+    border: 1px solid #1a8565;
+    font-weight: bold;
+}
+
+#increase-btn:hover {
+    width: 60%;
+    margin: 5px;
+    padding: 2%;
+    display: inline-block;
+    color: white;
+    background: #20a57d;
+    border-radius: 50px;
+    border: 1px solid #0bd397;
+    font-weight: bold;
+}
+
+
+#save-btn {
+    width: 60%;
+    margin: 5px;
+    padding: 2%;
+    display: inline-block;
+    color: white;
+    background: #1976d2;
+    border-radius: 50px;
+    border: 1px solid #145da5;
+    font-weight: bold;
+}
+
+#save-btn:hover {
+    width: 60%;
+    margin: 5px;
+    padding: 2%;
+    display: inline-block;
+    color: white;
+    background: #145da5;
+    border-radius: 50px;
+    border: 1px solid #1976d2;
+    font-weight: bold;
+}
+
+#entries {
+    font-weight: bold;
+}
+
+
+#coverimg {
+    width: 100%;
+    height: auto;
+}

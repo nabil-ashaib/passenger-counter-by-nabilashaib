@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+    <head>
+        <title>Nabil ASHAIB | Row Counter</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+		<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+    </head>
+    
+    <body>
+        
+        <div class="container" id="content">
+            <div class="row">
+                <div class="col-sm" id="contenttitle">
+                    <h2>ROW COUNTER</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm" id="contentcounter">
+                    <b>People entered : </b>
+                    <h1 id="count-entered">0</h1>
+
+                    <button class="btn" id="increase-btn" onclick="increasecount()">INCREASE</button><br>
+                    <button class="btn" id="save-btn"onclick="save()">SAVE</button>
+
+                    <p id="entries">Previous entries : <b id="count-saved">0</b></p>
+                    <p id="entries">Total entries : <b id="count-total">0</b></p>
+                </div>
+
+                <div class="col-sm" id="contentcover">
+                    <img src="./img/entre_illu_re_4vu2.svg" id="coverimg">
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
